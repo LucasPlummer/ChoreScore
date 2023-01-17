@@ -14,11 +14,6 @@ public class ChoresService
         Chore newChore = _repo.Create(choreData);
         return newChore;
     }
-
-    // internal Chore Create(Chore choreData)
-    // {
-
-    // }
     internal List<Chore> Get()
     {
         List<Chore> chores = _repo.Get();
